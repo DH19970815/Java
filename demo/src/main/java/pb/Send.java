@@ -22,4 +22,15 @@ public class Send {
 
     }
 
+    /*
+    *交换机
+    * channel.exchangeDeclare(EXCHANGE_NAME,"fanout");
+    * 接受生产者的消息，向队列推送消息
+    * 匿名转发 “” channel.basicPublish("",QUEUE_NAME,null, str.getBytes());
+    * fanout 不处理路由键，只要与交换机绑定的队列都能收到消息
+    * Direct 处理路由键， channel.basicPublish(EXCHANGE_NAME,Direct,null,"hello world".getBytes());
+    * 路由模式：
+    *
+    * */
+
 }
