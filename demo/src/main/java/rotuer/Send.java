@@ -6,7 +6,8 @@ import common.ConnectionUtil;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
-
+/*
+* 路由模式*/
 public class Send {
 
     private static final String EXCHANGE_NAME="test_exchange_direct";

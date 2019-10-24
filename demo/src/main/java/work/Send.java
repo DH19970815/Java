@@ -6,7 +6,9 @@ import common.ConnectionUtil;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
-
+/*
+* 工作对列轮询分发
+* */
 public class Send {
 
     private static final String QUEUE_NAME = "q_test_01";

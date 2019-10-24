@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 /*
 * 消息生产者
+* 简单模式
 * */
 public class Send {
     //队列名字
